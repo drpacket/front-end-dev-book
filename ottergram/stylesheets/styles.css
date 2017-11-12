@@ -107,11 +107,13 @@ a {
   font-size: 40px;
 }
 
-@media all and (min-width: 768px) {
-  .main-content {
+
+@media all and (orientation: landscape) {
+  .main-content {  
     flex-direction: row;
     overflow: hidden;
   }
+  /* before Bronze Challenge: ... and (min-width: 768px)*/
   .thumbnail-list {
     flex-direction: column;
     order: 0;
