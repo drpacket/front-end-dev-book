@@ -109,7 +109,7 @@ a {
 
 
 @media all and (orientation: landscape) {
-  .main-content {  
+  .main-content {
     flex-direction: row;
     overflow: hidden;
   }
